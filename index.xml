@@ -44,6 +44,40 @@
 
       
       <item>
+        <title>GitHub Invalid Authentication</title>
+        <link>http://feynmanzhou.github.io/posts/github-invalid-authentication/</link>
+        <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
+        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/github-invalid-authentication/</guid>
+        <description>Authentication issue After I enabled the Two-factor Authentication in GitHub, I can&amp;rsquo;t push the local commits to GitHub repository, and encountered the issue as follows:
+git push origin master Password for &#39;https://git@github.com&#39;: remote: Invalid username or password. fatal: Authentication failed for &#39;https://git@github.com/eurydyce/MDANSE.git/&#39;  How do I Resolve it Why this issue happened after Two-factor Authentication has been enabled? I got the answer from GitHub Documentation.
+Here, I just take notes for the solution.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Shortcodes</title>
         <link>http://feynmanzhou.github.io/posts/shortcodes/</link>
         <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
@@ -170,7 +204,7 @@ java javascript  1  System.out.println(&amp;#39;Hello World!&amp;#39;);     1  c
         <atom:modified>Tue, 17 Dec 2019 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/math-typesetting/</guid>
         <description>&lt;div class=&#34;box&#34;&gt;
-We need goldmark katex entension which is not yet we have: 
+We need goldmark katex entension which is not yet we have:
 [https://github.com/gohugoio/hugo/issues/6544](https://github.com/gohugoio/hugo/issues/6544)
 &lt;/div&gt;
 &lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
