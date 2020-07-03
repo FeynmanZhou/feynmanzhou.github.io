@@ -14,13 +14,46 @@
     <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
     <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 31 May 2020 12:00:06 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2020 12:00:06 +0900</lastBuildDate>
     
         <atom:link href="http://feynmanzhou.github.io/tags/shortcode/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>How to Install Docker on CentOS in China</title>
+        <link>http://feynmanzhou.github.io/posts/install-docker-to-centos-in-china/</link>
+        <pubDate>Thu, 02 Jul 2020 12:00:06 +0900</pubDate>
+        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <atom:modified>Thu, 02 Jul 2020 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/install-docker-to-centos-in-china/</guid>
+        <description>My Installation OS CentOS Linux release 7.6 on QingCloud Platform
+Add source for docker-ce yum  Extend yum function  $ yum install -y yum-utils Add software source information  $ yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo Automatically select the fastest yum registry source  yum makecache fast List the current version of docker-ce that can be installed  View the version list:  $ yum list docker-ce --showduplicates | sort -r docker-ce.x86_64 3:19.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>GitHub Invalid Authentication</title>
@@ -57,16 +90,19 @@ Here, I just take notes for the solution.</description>
       </item>
       
       <item>
-        <title>Shortcodes</title>
-        <link>http://feynmanzhou.github.io/posts/shortcodes/</link>
-        <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
+        <title>How to Add a Registry Mirror in Docker</title>
+        <link>http://feynmanzhou.github.io/posts/add-mirror-and-reload-docker/</link>
+        <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
         <author>zpf0610@gmail.com (FeynmanZhou)</author>
-        <atom:modified>Sat, 25 Jan 2020 06:40:51 +0900</atom:modified>
-        <guid>http://feynmanzhou.github.io/posts/shortcodes/</guid>
-        <description>Markdownify kkk This is boxmd shortcode Simple box This is **box** shortcode  Code tabs Make it easy to switch between different code
-java javascript  1  System.out.println(&amp;#39;Hello World!&amp;#39;);     1  console.log(&amp;#39;Hello World!&amp;#39;);       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;59ff937268b16f1f\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.</description>
+        <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/add-mirror-and-reload-docker/</guid>
+        <description>My Environment CentOS Linux release 7.6 on QingCloud Platform
+Configure the Docker daemon Either pass the &amp;ndash;registry-mirror option when starting dockerd manually, or edit /etc/docker/daemon.json and add the registry-mirrors key and value, to make the change persistent.
+{ &amp;quot;registry-mirrors&amp;quot;: [&amp;quot;https://&amp;lt;my-docker-mirror-host&amp;gt;&amp;quot;] } Save the file and reload Docker for the change to take effect.
+Reload Docker Flush changes and restart Docker:
+sudo systemctl daemon-reload sudo systemctl restart docker Reference  Control Docker with systemd Registry as a pull through cache  </description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman</dc:creator>
         <media:content url="http://feynmanzhou.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         

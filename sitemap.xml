@@ -13,28 +13,33 @@
   </url>
   
   <url>
+    <loc>http://feynmanzhou.github.io/posts/install-docker-to-centos-in-china/</loc>
+    <lastmod>2020-07-02T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/posts/</loc>
+    <lastmod>2020-07-02T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/tags/shortcode/</loc>
+    <lastmod>2020-07-02T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/tags/</loc>
+    <lastmod>2020-07-02T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://feynmanzhou.github.io/posts/github-invalid-authentication/</loc>
     <lastmod>2020-05-31T12:00:06+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://feynmanzhou.github.io/posts/</loc>
+    <loc>http://feynmanzhou.github.io/posts/add-mirror-and-reload-docker/</loc>
     <lastmod>2020-05-31T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/shortcode/</loc>
-    <lastmod>2020-05-31T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/</loc>
-    <lastmod>2020-05-31T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/shortcodes/</loc>
-    <lastmod>2020-01-25T06:40:51+09:00</lastmod>
   </url>
   
   <url>
@@ -45,161 +50,6 @@
   <url>
     <loc>http://feynmanzhou.github.io/showcase/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/categories/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/css/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/html/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/markdown/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/markdown-syntax/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/series/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/categories/syntax/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/themes/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/categories/themes/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/series/themes-guide/</loc>
-    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/hugo/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/categories/hugo/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/syntax-highlight/</loc>
-    <lastmod>2019-12-18T10:33:41+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/math-typesetting/</loc>
-    <lastmod>2019-12-17T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/amoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/bamoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/emoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/emoji-support/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/gamoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/namoji/</loc>
-    <lastmod>2019-12-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/categories/diagram/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/test-viz/</loc>
-    <lastmod>2019-11-18T21:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/test-wavedrom/</loc>
-    <lastmod>2019-11-18T18:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/test-chartjs/</loc>
-    <lastmod>2019-11-18T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/test-js-sequence-diagrams/</loc>
-    <lastmod>2019-11-18T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/diagram/</loc>
-    <lastmod>2019-11-17T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/test-mermaid/</loc>
-    <lastmod>2019-11-17T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/categories/math/</loc>
-    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/test-mathjax/</loc>
-    <lastmod>2019-11-16T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/test-katex/</loc>
-    <lastmod>2019-11-15T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/posts/test-flowchart/</loc>
-    <lastmod>2019-11-14T12:00:06+09:00</lastmod>
   </url>
   
   <url>
@@ -258,7 +108,15 @@
   </url>
   
   <url>
+    <loc>http://feynmanzhou.github.io/categories/</loc>
+  </url>
+  
+  <url>
     <loc>http://feynmanzhou.github.io/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/series/</loc>
   </url>
   
 </urlset>
