@@ -125,6 +125,74 @@ sudo systemctl daemon-reload sudo systemctl restart docker Reference  Control Do
         
       </item>
       
+      <item>
+        <title>Install and Set Up kubectl Tool</title>
+        <link>http://feynmanzhou.github.io/posts/install-kubectl/</link>
+        <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
+        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/install-kubectl/</guid>
+        <description>Intro The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs.
+My Environment CentOS Linux release 7.6 on QingCloud Platform
+Install kubectl   For users who can access google api, refer to the Kubernetes Documentation.
+  For users who can not access google api, please refer to the following steps:</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Use Kind to provision Kubernetes, run KubeSphere anywhere</title>
+        <link>http://feynmanzhou.github.io/posts/install-kind-k8s-and-kubesphere/</link>
+        <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
+        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/install-kind-k8s-and-kubesphere/</guid>
+        <description>What is kind kind, Kubernetes IN Docker - local clusters for testing Kubernetes. kind is an open source tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development. kind bootstraps each &amp;ldquo;node&amp;rdquo; with kubeadm.
+Differences between kind and kubekey Generally, kind is similar to kubekey, both are used to provision a Kubernetes cluster to the target machines.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io/images/feature1/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
 
     
   </channel>

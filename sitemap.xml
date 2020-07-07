@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>http://feynmanzhou.github.io/showcase/hugo/</loc>
+    <lastmod>2020-06-19T21:04:11+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://feynmanzhou.github.io/posts/github-invalid-authentication/</loc>
     <lastmod>2020-05-31T12:00:06+09:00</lastmod>
   </url>
@@ -43,8 +48,13 @@
   </url>
   
   <url>
-    <loc>http://feynmanzhou.github.io/showcase/hugo/</loc>
-    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
+    <loc>http://feynmanzhou.github.io/posts/install-kubectl/</loc>
+    <lastmod>2020-05-31T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/posts/install-kind-k8s-and-kubesphere/</loc>
+    <lastmod>2020-05-31T12:00:06+09:00</lastmod>
   </url>
   
   <url>
