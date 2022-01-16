@@ -3,22 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://feynmanzhou.github.io/showcase/hugo/openelb/</loc>
+    <loc>http://feynmanzhou.github.io/showcase/part-time/style-guide/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://feynmanzhou.github.io/showcase/hugo/kubesphere/</loc>
+    <loc>http://feynmanzhou.github.io/showcase/working/openelb/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://feynmanzhou.github.io/showcase/hugo/openfunction/</loc>
+    <loc>http://feynmanzhou.github.io/showcase/part-time/cloud-computing-101/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://feynmanzhou.github.io/showcase/hugo/website/</loc>
+    <loc>http://feynmanzhou.github.io/showcase/working/kubesphere/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/showcase/working/openfunction/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/showcase/working/website/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
@@ -63,6 +73,11 @@
   </url>
   
   <url>
+    <loc>http://feynmanzhou.github.io/showcase/working/</loc>
+    <lastmod>2021-06-19T21:04:11+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://feynmanzhou.github.io/posts/install-docker-to-centos-in-china/</loc>
     <lastmod>2020-07-02T12:00:06+09:00</lastmod>
   </url>
@@ -73,7 +88,7 @@
   </url>
   
   <url>
-    <loc>http://feynmanzhou.github.io/showcase/hugo/</loc>
+    <loc>http://feynmanzhou.github.io/showcase/part-time/</loc>
     <lastmod>2020-06-19T21:04:11+09:00</lastmod>
   </url>
   
@@ -110,31 +125,6 @@
   <url>
     <loc>http://feynmanzhou.github.io/gallery/photo/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/presentation/dir/fourth/</loc>
-    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/presentation/</loc>
-    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/presentation/third/</loc>
-    <lastmod>2019-10-30T20:46:30+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/presentation/second/</loc>
-    <lastmod>2019-10-30T20:45:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/presentation/first/</loc>
-    <lastmod>2019-10-30T19:45:20+09:00</lastmod>
   </url>
   
   <url>

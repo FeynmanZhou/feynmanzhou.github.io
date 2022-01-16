@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Co-hosted Projects on home</title>
+    <link>http://feynmanzhou.github.io/showcase/part-time/</link>
+    <description>Recent content in Co-hosted Projects on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 19 Jun 2020 21:04:11 +0900</lastBuildDate>
+    
+        <atom:link href="http://feynmanzhou.github.io/showcase/part-time/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Open Source Projects Style Guide（中文）</title>
+        <link>http://feynmanzhou.github.io/showcase/part-time/style-guide/</link>
+        <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/showcase/part-time/style-guide/</guid>
+        <description></description>
+        
+        <dc:creator>Feynman Zhou</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Cloud Computing 101（中文）</title>
+        <link>http://feynmanzhou.github.io/showcase/part-time/cloud-computing-101/</link>
+        <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/showcase/part-time/cloud-computing-101/</guid>
+        <description></description>
+        
+        <dc:creator>Feynman Zhou</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
