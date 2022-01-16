@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Presentations on Hugo Zzo Theme</title>
+    <title>Presentations on home</title>
     <link>http://feynmanzhou.github.io/presentation/</link>
-    <description>Recent content in Presentations on Hugo Zzo Theme</description>
+    <description>Recent content in Presentations on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
-    <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 30 Oct 2019 20:48:10 +0900</lastBuildDate>
     
@@ -26,12 +26,12 @@
         <title>Fourth</title>
         <link>http://feynmanzhou.github.io/presentation/dir/fourth/</link>
         <pubDate>Wed, 30 Oct 2019 20:48:10 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Wed, 30 Oct 2019 20:48:10 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/presentation/dir/fourth/</guid>
         <description></description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman Zhou</dc:creator>
         <media:content url="http://feynmanzhou.github.io/images/feature1/number-four.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
@@ -56,12 +56,12 @@
         <title>Third</title>
         <link>http://feynmanzhou.github.io/presentation/third/</link>
         <pubDate>Wed, 30 Oct 2019 20:46:30 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Wed, 30 Oct 2019 20:46:30 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/presentation/third/</guid>
         <description></description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman Zhou</dc:creator>
         <media:content url="http://feynmanzhou.github.io/images/feature1/number-three.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
@@ -86,12 +86,12 @@
         <title>Second</title>
         <link>http://feynmanzhou.github.io/presentation/second/</link>
         <pubDate>Wed, 30 Oct 2019 20:45:24 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Wed, 30 Oct 2019 20:45:24 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/presentation/second/</guid>
         <description></description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman Zhou</dc:creator>
         <media:content url="http://feynmanzhou.github.io/images/feature1/number-two.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
@@ -116,12 +116,12 @@
         <title>First</title>
         <link>http://feynmanzhou.github.io/presentation/first/</link>
         <pubDate>Wed, 30 Oct 2019 19:45:20 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Wed, 30 Oct 2019 19:45:20 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/presentation/first/</guid>
         <description></description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman Zhou</dc:creator>
         <media:content url="http://feynmanzhou.github.io/images/feature1/number-one.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         

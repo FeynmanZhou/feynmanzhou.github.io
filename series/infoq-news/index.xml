@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>InfoQ-news on home</title>
+    <link>http://feynmanzhou.github.io/series/infoq-news/</link>
+    <description>Recent content in InfoQ-news on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 12 Nov 2021 12:00:06 +0900</lastBuildDate>
+    
+        <atom:link href="http://feynmanzhou.github.io/series/infoq-news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>HashiCorp Vault 1.8 Adds Diagnose Command, Key Management Secrets Engine, and Expiration Manager</title>
+        <link>http://feynmanzhou.github.io/posts/hashicorp-vault-1.8/</link>
+        <pubDate>Fri, 12 Nov 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Fri, 12 Nov 2021 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/hashicorp-vault-1.8/</guid>
+        <description>HashiCorp Vault 1.8 brings notable features and improvements to the secrecy and privacy product including Vault Diagnose, integrated-storage autopilot, Key Management secrets engine for AWS, expiration manager improvements, and control-group triggers.
+Vault helps users to manage secrets and protect sensitive data using UI, CLI, or HTTP API.
+In the community office hours of Vault, Stephen Wayne, software engineer of HashiCorp, highlighted the major improvements of the expiration manager and why it does matter for Vault.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io//posts/images/hashicorp-vault.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>news</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>InfoQ-news</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Karmada 0.7 released! The Next-gen Multi-Cloud and Multi-Cluster Kubernetes Orchestration</title>
+        <link>http://feynmanzhou.github.io/posts/karmada-07-release/</link>
+        <pubDate>Fri, 24 Sep 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Fri, 24 Sep 2021 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/karmada-07-release/</guid>
+        <description>Karmada 0.7, featuring a promising Kubernetes management system in the hybrid cloud era, became available on July 12, 2021. It brought multi-cluster service discovery, precise cluster status management, replica scheduling based on cluster resources, and more convenient APIs to divide replicas by weight list.
+Karmada (Kubernetes Armada) is designed for multi-cloud and multi-cluster Kubernetes orchestration with a Kubernetes-native implementation. It provides centralized multi-cloud management, high availability, failure recovery, and traffic scheduling, which enables users to run their cloud-native applications across multiple Kubernetes clusters and clouds with no changes to applications.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io//posts/images/karmada-architecture.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>news</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>InfoQ-news</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Litmus 2.0 Release Includes Multi-Tenancy, Chaos Workflows, GitOps, and Observability</title>
+        <link>http://feynmanzhou.github.io/posts/litmus-20-release/</link>
+        <pubDate>Fri, 24 Sep 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Fri, 24 Sep 2021 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/litmus-20-release/</guid>
+        <description>Litmus, the first chaos engineering project to join the CNCF sandbox program, applies a programmable, declarative approach to chaos engineering. Last month, Litmus 2.0 was released for general availability, with the goal of simplifying chaos engineering by adding new features like chaos center, chaos workflows, GitOps for chaos, multi-tenancy, observability, and private chaos hubs.
+InfoQ interviewed Umasankar Mukkara, CEO of ChaosNative and co-creator and maintainer of Litmus engineering platform.
+InfoQ: Litmus was the first chaos engineering project to join the CNCF.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io//posts/images/litmus-2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>news</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>InfoQ-news</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

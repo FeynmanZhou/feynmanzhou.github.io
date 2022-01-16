@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Showcase overview on Hugo Zzo Theme</title>
+    <title>Showcase overview on home</title>
     <link>http://feynmanzhou.github.io/showcase/</link>
-    <description>Recent content in Showcase overview on Hugo Zzo Theme</description>
+    <description>Recent content in Showcase overview on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
-    <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 19 Jan 2020 15:43:38 +0900</lastBuildDate>
     
@@ -26,12 +26,12 @@
         <title>Cloud Native</title>
         <link>http://feynmanzhou.github.io/showcase/hugo/</link>
         <pubDate>Fri, 19 Jun 2020 21:04:11 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Fri, 19 Jun 2020 21:04:11 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/showcase/hugo/</guid>
         <description></description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman Zhou</dc:creator>
         
         
         

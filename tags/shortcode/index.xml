@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>shortcode on Hugo Zzo Theme</title>
+    <title>shortcode on home</title>
     <link>http://feynmanzhou.github.io/tags/shortcode/</link>
-    <description>Recent content in shortcode on Hugo Zzo Theme</description>
+    <description>Recent content in shortcode on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
-    <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 02 Jul 2020 12:00:06 +0900</lastBuildDate>
     
@@ -26,7 +26,7 @@
         <title>How to Install Docker on CentOS in China</title>
         <link>http://feynmanzhou.github.io/posts/install-docker-to-centos-in-china/</link>
         <pubDate>Thu, 02 Jul 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Thu, 02 Jul 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/install-docker-to-centos-in-china/</guid>
         <description>My Installation OS CentOS Linux release 7.6 on QingCloud Platform
@@ -59,7 +59,7 @@ Add source for docker-ce yum  Extend yum function  $ yum install -y yum-utils Ad
         <title>GitHub Invalid Authentication</title>
         <link>http://feynmanzhou.github.io/posts/github-invalid-authentication/</link>
         <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/github-invalid-authentication/</guid>
         <description>Authentication issue After I enabled the Two-factor Authentication in GitHub, I can&amp;rsquo;t push the local commits to GitHub repository, and encountered the issue as follows:
@@ -93,7 +93,7 @@ Here, I just take notes for the solution.</description>
         <title>How to Add a Registry Mirror in Docker</title>
         <link>http://feynmanzhou.github.io/posts/add-mirror-and-reload-docker/</link>
         <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/add-mirror-and-reload-docker/</guid>
         <description>My Environment CentOS Linux release 7.6 on QingCloud Platform
@@ -129,7 +129,7 @@ sudo systemctl daemon-reload sudo systemctl restart docker Reference  Control Do
         <title>Install and Set Up kubectl Tool</title>
         <link>http://feynmanzhou.github.io/posts/install-kubectl/</link>
         <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/install-kubectl/</guid>
         <description>Intro The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs.
@@ -164,14 +164,14 @@ Install kubectl   For users who can access google api, refer to the Kubernetes D
         <title>Use Kind to provision Kubernetes, run KubeSphere anywhere</title>
         <link>http://feynmanzhou.github.io/posts/install-kind-k8s-and-kubesphere/</link>
         <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/install-kind-k8s-and-kubesphere/</guid>
         <description>What is kind kind, Kubernetes IN Docker - local clusters for testing Kubernetes. kind is an open source tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development. kind bootstraps each &amp;ldquo;node&amp;rdquo; with kubeadm.
 Differences between kind and kubekey Generally, kind is similar to kubekey, both are used to provision a Kubernetes cluster to the target machines.</description>
         
         <dc:creator>Feynman</dc:creator>
-        <media:content url="http://feynmanzhou.github.io/images/feature1/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://feynmanzhou.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

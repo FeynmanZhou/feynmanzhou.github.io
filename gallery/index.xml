@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Galleries on Hugo Zzo Theme</title>
+    <title>Galleries on home</title>
     <link>http://feynmanzhou.github.io/gallery/</link>
-    <description>Recent content in Galleries on Hugo Zzo Theme</description>
+    <description>Recent content in Galleries on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
-    <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 31 Oct 2019 10:20:16 +0900</lastBuildDate>
     
@@ -23,33 +23,15 @@
 
       
       <item>
-        <title>Cartoon</title>
-        <link>http://feynmanzhou.github.io/gallery/cartoon/</link>
-        <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
-        <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
-        <guid>http://feynmanzhou.github.io/gallery/cartoon/</guid>
-        <description>Sample images</description>
-        
-        <dc:creator>FeynmanZhou</dc:creator>
-        <media:content url="http://feynmanzhou.github.io/images/feature2/bam.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Photo</title>
+        <title>Photos</title>
         <link>http://feynmanzhou.github.io/gallery/photo/</link>
         <pubDate>Thu, 31 Oct 2019 10:20:16 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Thu, 31 Oct 2019 10:20:16 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/gallery/photo/</guid>
-        <description>Sample images from Pixabay</description>
+        <description>Record the conferences and events in my work and life.</description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman Zhou</dc:creator>
         <media:content url="http://feynmanzhou.github.io/images/feature2/gallery.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         

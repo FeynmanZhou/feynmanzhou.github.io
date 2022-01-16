@@ -6,15 +6,15 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Tags on Hugo Zzo Theme</title>
+    <title>Tags on home</title>
     <link>http://feynmanzhou.github.io/tags/</link>
-    <description>Recent content in Tags on Hugo Zzo Theme</description>
+    <description>Recent content in Tags on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
-    <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 02 Jul 2020 12:00:06 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 12 Nov 2021 12:00:06 +0900</lastBuildDate>
     
         <atom:link href="http://feynmanzhou.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,15 +23,33 @@
 
       
       <item>
+        <title>news</title>
+        <link>http://feynmanzhou.github.io/tags/news/</link>
+        <pubDate>Fri, 12 Nov 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        
+        <guid>http://feynmanzhou.github.io/tags/news/</guid>
+        <description></description>
+        
+        <dc:creator>Feynman Zhou</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>shortcode</title>
         <link>http://feynmanzhou.github.io/tags/shortcode/</link>
         <pubDate>Thu, 02 Jul 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         
         <guid>http://feynmanzhou.github.io/tags/shortcode/</guid>
         <description></description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman Zhou</dc:creator>
         
         
         
@@ -44,12 +62,12 @@
         <title>index</title>
         <link>http://feynmanzhou.github.io/tags/index/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         
         <guid>http://feynmanzhou.github.io/tags/index/</guid>
         <description></description>
         
-        <dc:creator>FeynmanZhou</dc:creator>
+        <dc:creator>Feynman Zhou</dc:creator>
         
         
         

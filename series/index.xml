@@ -6,20 +6,39 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Series on Hugo Zzo Theme</title>
+    <title>Series on home</title>
     <link>http://feynmanzhou.github.io/series/</link>
-    <description>Recent content in Series on Hugo Zzo Theme</description>
+    <description>Recent content in Series on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
-    <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 12 Nov 2021 12:00:06 +0900</lastBuildDate>
     
         <atom:link href="http://feynmanzhou.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>InfoQ-news</title>
+        <link>http://feynmanzhou.github.io/series/infoq-news/</link>
+        <pubDate>Fri, 12 Nov 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        
+        <guid>http://feynmanzhou.github.io/series/infoq-news/</guid>
+        <description></description>
+        
+        <dc:creator>Feynman Zhou</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
 
     

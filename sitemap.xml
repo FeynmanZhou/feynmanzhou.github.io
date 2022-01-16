@@ -3,13 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://feynmanzhou.github.io/showcase/hugo/hugo-theme-zzo/</loc>
+    <loc>http://feynmanzhou.github.io/showcase/hugo/openelb/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://feynmanzhou.github.io/showcase/hugo/hugo-theme-zdoc/</loc>
+    <loc>http://feynmanzhou.github.io/showcase/hugo/kubesphere/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/showcase/hugo/openfunction/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/showcase/hugo/website/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/posts/hashicorp-vault-1.8/</loc>
+    <lastmod>2021-11-12T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/series/infoq-news/</loc>
+    <lastmod>2021-11-12T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/tags/news/</loc>
+    <lastmod>2021-11-12T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/posts/</loc>
+    <lastmod>2021-11-12T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/series/</loc>
+    <lastmod>2021-11-12T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/tags/</loc>
+    <lastmod>2021-11-12T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/posts/karmada-07-release/</loc>
+    <lastmod>2021-09-24T12:00:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://feynmanzhou.github.io/posts/litmus-20-release/</loc>
+    <lastmod>2021-09-24T12:00:06+09:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +68,7 @@
   </url>
   
   <url>
-    <loc>http://feynmanzhou.github.io/posts/</loc>
-    <lastmod>2020-07-02T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://feynmanzhou.github.io/tags/shortcode/</loc>
-    <lastmod>2020-07-02T12:00:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/tags/</loc>
     <lastmod>2020-07-02T12:00:06+09:00</lastmod>
   </url>
   
@@ -60,11 +100,6 @@
   <url>
     <loc>http://feynmanzhou.github.io/showcase/</loc>
     <lastmod>2020-01-19T15:43:38+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/gallery/cartoon/</loc>
-    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
   </url>
   
   <url>
@@ -123,10 +158,6 @@
   
   <url>
     <loc>http://feynmanzhou.github.io/tags/index/</loc>
-  </url>
-  
-  <url>
-    <loc>http://feynmanzhou.github.io/series/</loc>
   </url>
   
 </urlset>

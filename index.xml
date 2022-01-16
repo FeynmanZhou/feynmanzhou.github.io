@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Hugo Zzo Theme</title>
+    <title>home</title>
     <link>http://feynmanzhou.github.io/</link>
-    <description>Recent content on Hugo Zzo Theme</description>
+    <description>Recent content on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
-    <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
@@ -44,10 +44,117 @@
 
       
       <item>
+        <title>HashiCorp Vault 1.8 Adds Diagnose Command, Key Management Secrets Engine, and Expiration Manager</title>
+        <link>http://feynmanzhou.github.io/posts/hashicorp-vault-1.8/</link>
+        <pubDate>Fri, 12 Nov 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Fri, 12 Nov 2021 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/hashicorp-vault-1.8/</guid>
+        <description>HashiCorp Vault 1.8 brings notable features and improvements to the secrecy and privacy product including Vault Diagnose, integrated-storage autopilot, Key Management secrets engine for AWS, expiration manager improvements, and control-group triggers.
+Vault helps users to manage secrets and protect sensitive data using UI, CLI, or HTTP API.
+In the community office hours of Vault, Stephen Wayne, software engineer of HashiCorp, highlighted the major improvements of the expiration manager and why it does matter for Vault.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io//posts/images/hashicorp-vault.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>news</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>InfoQ-news</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Karmada 0.7 released! The Next-gen Multi-Cloud and Multi-Cluster Kubernetes Orchestration</title>
+        <link>http://feynmanzhou.github.io/posts/karmada-07-release/</link>
+        <pubDate>Fri, 24 Sep 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Fri, 24 Sep 2021 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/karmada-07-release/</guid>
+        <description>Karmada 0.7, featuring a promising Kubernetes management system in the hybrid cloud era, became available on July 12, 2021. It brought multi-cluster service discovery, precise cluster status management, replica scheduling based on cluster resources, and more convenient APIs to divide replicas by weight list.
+Karmada (Kubernetes Armada) is designed for multi-cloud and multi-cluster Kubernetes orchestration with a Kubernetes-native implementation. It provides centralized multi-cloud management, high availability, failure recovery, and traffic scheduling, which enables users to run their cloud-native applications across multiple Kubernetes clusters and clouds with no changes to applications.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io//posts/images/karmada-architecture.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>news</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>InfoQ-news</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Litmus 2.0 Release Includes Multi-Tenancy, Chaos Workflows, GitOps, and Observability</title>
+        <link>http://feynmanzhou.github.io/posts/litmus-20-release/</link>
+        <pubDate>Fri, 24 Sep 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Fri, 24 Sep 2021 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/litmus-20-release/</guid>
+        <description>Litmus, the first chaos engineering project to join the CNCF sandbox program, applies a programmable, declarative approach to chaos engineering. Last month, Litmus 2.0 was released for general availability, with the goal of simplifying chaos engineering by adding new features like chaos center, chaos workflows, GitOps for chaos, multi-tenancy, observability, and private chaos hubs.
+InfoQ interviewed Umasankar Mukkara, CEO of ChaosNative and co-creator and maintainer of Litmus engineering platform.
+InfoQ: Litmus was the first chaos engineering project to join the CNCF.</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io//posts/images/litmus-2.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>news</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>InfoQ-news</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>How to Install Docker on CentOS in China</title>
         <link>http://feynmanzhou.github.io/posts/install-docker-to-centos-in-china/</link>
         <pubDate>Thu, 02 Jul 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Thu, 02 Jul 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/install-docker-to-centos-in-china/</guid>
         <description>My Installation OS CentOS Linux release 7.6 on QingCloud Platform
@@ -80,7 +187,7 @@ Add source for docker-ce yum  Extend yum function  $ yum install -y yum-utils Ad
         <title>GitHub Invalid Authentication</title>
         <link>http://feynmanzhou.github.io/posts/github-invalid-authentication/</link>
         <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/github-invalid-authentication/</guid>
         <description>Authentication issue After I enabled the Two-factor Authentication in GitHub, I can&amp;rsquo;t push the local commits to GitHub repository, and encountered the issue as follows:
@@ -114,7 +221,7 @@ Here, I just take notes for the solution.</description>
         <title>How to Add a Registry Mirror in Docker</title>
         <link>http://feynmanzhou.github.io/posts/add-mirror-and-reload-docker/</link>
         <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/add-mirror-and-reload-docker/</guid>
         <description>My Environment CentOS Linux release 7.6 on QingCloud Platform
@@ -150,7 +257,7 @@ sudo systemctl daemon-reload sudo systemctl restart docker Reference  Control Do
         <title>Install and Set Up kubectl Tool</title>
         <link>http://feynmanzhou.github.io/posts/install-kubectl/</link>
         <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/install-kubectl/</guid>
         <description>Intro The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs.
@@ -185,14 +292,14 @@ Install kubectl   For users who can access google api, refer to the Kubernetes D
         <title>Use Kind to provision Kubernetes, run KubeSphere anywhere</title>
         <link>http://feynmanzhou.github.io/posts/install-kind-k8s-and-kubesphere/</link>
         <pubDate>Sun, 31 May 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         <atom:modified>Sun, 31 May 2020 12:00:06 +0900</atom:modified>
         <guid>http://feynmanzhou.github.io/posts/install-kind-k8s-and-kubesphere/</guid>
         <description>What is kind kind, Kubernetes IN Docker - local clusters for testing Kubernetes. kind is an open source tool for running local Kubernetes clusters using Docker container “nodes”. kind was primarily designed for testing Kubernetes itself, but may be used for local development. kind bootstraps each &amp;ldquo;node&amp;rdquo; with kubeadm.
 Differences between kind and kubekey Generally, kind is similar to kubekey, both are used to provision a Kubernetes cluster to the target machines.</description>
         
         <dc:creator>Feynman</dc:creator>
-        <media:content url="http://feynmanzhou.github.io/images/feature1/graph.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://feynmanzhou.github.io/images/feature2/mathbook.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

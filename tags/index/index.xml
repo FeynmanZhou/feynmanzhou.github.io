@@ -6,13 +6,13 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>index on Hugo Zzo Theme</title>
+    <title>index on home</title>
     <link>http://feynmanzhou.github.io/tags/index/</link>
-    <description>Recent content in index on Hugo Zzo Theme</description>
+    <description>Recent content in index on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>zpf0610@gmail.com (FeynmanZhou)</managingEditor>
-    <webMaster>zpf0610@gmail.com (FeynmanZhou)</webMaster>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     
         <atom:link href="http://feynmanzhou.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
@@ -24,8 +24,8 @@
       <item>
         <title>Posts</title>
         <link>http://feynmanzhou.github.io/posts/</link>
-        <pubDate>Thu, 02 Jul 2020 12:00:06 +0900</pubDate>
-        <author>zpf0610@gmail.com (FeynmanZhou)</author>
+        <pubDate>Fri, 12 Nov 2021 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
         
         <guid>http://feynmanzhou.github.io/posts/</guid>
         <description></description>
