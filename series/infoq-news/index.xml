@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>InfoQ-news on home</title>
+    <title>InfoQ-news on All Things Cloud Native</title>
     <link>http://feynmanzhou.github.io/series/infoq-news/</link>
-    <description>Recent content in InfoQ-news on home</description>
+    <description>Recent content in InfoQ-news on All Things Cloud Native</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
