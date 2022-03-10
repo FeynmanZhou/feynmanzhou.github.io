@@ -57,40 +57,6 @@
       </item>
       
       <item>
-        <title>My 2021 Year in Review（中文）</title>
-        <link>http://feynmanzhou.github.io/posts/presentations-2021/</link>
-        <pubDate>Sat, 12 Feb 2022 12:00:06 +0900</pubDate>
-        <author>feynman@kubesphere.io (Feynman Zhou)</author>
-        <atom:modified>Sat, 12 Feb 2022 12:00:06 +0900</atom:modified>
-        <guid>http://feynmanzhou.github.io/posts/presentations-2021/</guid>
-        <description>2021 农历年已经画上了句号，2022 年农历新年在鞭炮声中来临。辞旧迎新之际，我总觉得应该对过去一年做个小总结，在新年伊始立下几个 Flag，才算有</description>
-        
-        <dc:creator>Feynman</dc:creator>
-        <media:content url="http://feynmanzhou.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
-        
-        
-        
-          
-            
-              <category>life</category>
-            
-          
-        
-        
-          
-            
-          
-        
-        
-          
-            
-              <category>life</category>
-            
-          
-        
-      </item>
-      
-      <item>
         <title>HashiCorp Vault 1.8 Adds Diagnose Command, Key Management Secrets Engine, and Expiration Manager</title>
         <link>http://feynmanzhou.github.io/posts/hashicorp-vault-1.8/</link>
         <pubDate>Fri, 12 Nov 2021 12:00:06 +0900</pubDate>
