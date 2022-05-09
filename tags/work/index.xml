@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>work on All Things Cloud Native</title>
+    <link>http://feynmanzhou.github.io/tags/work/</link>
+    <description>Recent content in work on All Things Cloud Native</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>feynman@kubesphere.io (Feynman Zhou)</managingEditor>
+    <webMaster>feynman@kubesphere.io (Feynman Zhou)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 09 May 2022 12:00:06 +0900</lastBuildDate>
+    
+        <atom:link href="http://feynmanzhou.github.io/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Joined Microsoft Azure and started my new adventure（中文）</title>
+        <link>http://feynmanzhou.github.io/posts/new-adventure/</link>
+        <pubDate>Mon, 09 May 2022 12:00:06 +0900</pubDate>
+        <author>feynman@kubesphere.io (Feynman Zhou)</author>
+        <atom:modified>Mon, 09 May 2022 12:00:06 +0900</atom:modified>
+        <guid>http://feynmanzhou.github.io/posts/new-adventure/</guid>
+        <description>五一假期过完，我正式加入了微软 Azure，转岗成为了一名产品经理（在微软产品经理叫 Program Manager）。是的，我选择了一个全新的职业方向，但还</description>
+        
+        <dc:creator>Feynman</dc:creator>
+        <media:content url="http://feynmanzhou.github.io/images/feature3/Microsoft-wallpaper.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>work</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+              <category>work</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

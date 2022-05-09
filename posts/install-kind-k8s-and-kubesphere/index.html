@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.cd44056d552c69703dced61ae60f99166a0ddf44be93d6aa5d5127d98bf98984.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1231,7 +1231,7 @@
     <meta property="twitter:description" content="How to install Kind to provision a Kubernetes cluster, and install KubeSphere on existing K8s">
   
 
-<meta name="generator" content="Hugo 0.68.1" />
+<meta name="generator" content="Hugo 0.95.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1647,7 +1647,7 @@
 <li>Kubectl, see <a href="install-kubectl.md">Install and Set Up kubectl Tool</a></li>
 </ul>
 <h2 id="download-kind">Download Kind</h2>
-<pre><code>curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-$(uname)-amd64
+<pre tabindex="0"><code>curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-$(uname)-amd64
 chmod +x ./kind
 mv ./kind /some-dir-in-your-PATH/kind # e.g. mv ./kind /usr/local/bin/kind
 </code></pre><h2 id="use-kind-to-provision-kubernetes">Use Kind to Provision Kubernetes</h2>
@@ -1657,7 +1657,7 @@ mv ./kind /some-dir-in-your-PATH/kind # e.g. mv ./kind /usr/local/bin/kind
 <ol start="0">
 <li>Create a a YAML config file:</li>
 </ol>
-<pre><code>vi config.yaml
+<pre tabindex="0"><code>vi config.yaml
 </code></pre><ol>
 <li>
 <p>Since the APIServer is only listening for 127.0.0.1, which means that APIServer cannot be accessed outside of the Kubernetes cluster which is provisioned by Kind. After creating a cluster, if you want to use kubectl to interact with the Kubernetes cluster by using the kubeconfig, you have to set the filed <code>apiServerAddress</code> to the NodeIP (e.g. <code>192.168.0.5</code>). See the configuration in <code>networking</code>.</p>
@@ -1671,30 +1671,30 @@ mv ./kind /some-dir-in-your-PATH/kind # e.g. mv ./kind /usr/local/bin/kind
 </ol>
 <p><strong>config.yaml</strong></p>
 <p>Fill out the <strong>config.yaml</strong> with the following configuration.</p>
-<pre><code>kind: Cluster
+<pre tabindex="0"><code>kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
 - role: control-plane
   extraPortMappings:
   - containerPort: 30880  # Enter the port you want to map it from the nodes to the host
     hostPort: 30880  # Enter the port you want to map it from the nodes to the host
-    listenAddress: &quot;0.0.0.0&quot; # Optional, defaults to &quot;0.0.0.0&quot;
+    listenAddress: &#34;0.0.0.0&#34; # Optional, defaults to &#34;0.0.0.0&#34;
     protocol: tcp # Defaults to tcp, you can use udp as you need
 networking:
-  apiServerAddress: &quot;192.168.0.5&quot; # Enter the APIServer IP
+  apiServerAddress: &#34;192.168.0.5&#34; # Enter the APIServer IP
 containerdConfigPatches:
 - |-
-  [plugins.&quot;io.containerd.grpc.v1.cri&quot;.registry.mirrors.&quot;docker.io&quot;]
-    endpoint = [&quot;https://12345.mirror.aliyuncs.com/&quot;]  # replace it with your own image accelerator
+  [plugins.&#34;io.containerd.grpc.v1.cri&#34;.registry.mirrors.&#34;docker.io&#34;]
+    endpoint = [&#34;https://12345.mirror.aliyuncs.com/&#34;]  # replace it with your own image accelerator
 </code></pre><ol start="4">
 <li>To specify a configuration file when creating a cluster, use the &ndash;config flag:</li>
 </ol>
-<pre><code>kind create cluster --config config.yaml
+<pre tabindex="0"><code>kind create cluster --config config.yaml
 </code></pre><p><img src="https://pek3b.qingstor.com/kubesphere-docs/png/20200707081506.png" alt="" /></p>
 <ol start="5">
 <li>Verify the installation:</li>
 </ol>
-<pre><code>$ kubectl get pod --all-namespaces
+<pre tabindex="0"><code>$ kubectl get pod --all-namespaces
 
 kube-system                    coredns-66bff467f8-984xp                             1/1     Running             0          58m
 kube-system                    coredns-66bff467f8-bh5sm                             1/1     Running             0          58m
@@ -1709,7 +1709,7 @@ local-path-storage             local-path-provisioner-bd4bb6b75-xt9zg           
 </code></pre><ol start="6">
 <li>As you can find that Kind create a default StorageClass <code>local-path</code> to provision local storage. This is quite convenient for the Pods that need to bind PVC.</li>
 </ol>
-<pre><code>$ kubectl get sc
+<pre tabindex="0"><code>$ kubectl get sc
 NAME                 PROVISIONER             RECLAIMPOLICY   VOLUMEBINDINGMODE      ALLOWVOLUMEEXPANSION   AGE
 standard (default)   rancher.io/local-path   Delete          WaitForFirstConsumer   false                  61m
 </code></pre><h2 id="install-kubesphere-on-kubernetes-cluster">Install KubeSphere on Kubernetes Cluster</h2>
@@ -1718,7 +1718,7 @@ standard (default)   rancher.io/local-path   Delete          WaitForFirstConsume
 <p>Important: KubeSphere v3.0 supports multi-cluster management, you can set the kind cluster as a host or a member cluster as you want. Make sure you configure the cluster role in <a href="https://github.com/kubesphere/ks-installer/blob/master/deploy/cluster-configuration.yaml#L59">ClusterRole</a> before deploy KubeSphere. Note that we set the kind cluster as a <code>host</code> in this blog.</p>
 </blockquote>
 <p><strong>cluster-configuration.yaml</strong></p>
-<pre><code>···
+<pre tabindex="0"><code>···
 multicluster:
   clusterRole: none  # host | member | none
 ···
@@ -1727,7 +1727,7 @@ multicluster:
 <ol>
 <li>Obtain the kubeconfig file.</li>
 </ol>
-<pre><code>cat $HOME/.kube/config
+<pre tabindex="0"><code>cat $HOME/.kube/config
 
 apiVersion: v1
 clusters:
@@ -1875,7 +1875,7 @@ users:
     
     
       
-        <img data-src="/images/whoami/avatar.jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" alt="Feynman Zhou" class="lazyload whoami__image"/>
+        <img data-src="/images/whoami/avatar-1.jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" alt="Feynman Zhou" class="lazyload whoami__image"/>
       
     
   </div>
@@ -2017,15 +2017,15 @@ users:
     <ul class="related-ul">
         
         <li>
+          <a href="/posts/install-kubectl/" class="related__link">Install and Set Up kubectl Tool</a>
+        </li>
+        
+        <li>
           <a href="/posts/github-invalid-authentication/" class="related__link">GitHub Invalid Authentication</a>
         </li>
         
         <li>
           <a href="/posts/add-mirror-and-reload-docker/" class="related__link">How to Add a Registry Mirror in Docker</a>
-        </li>
-        
-        <li>
-          <a href="/posts/install-kubectl/" class="related__link">Install and Set Up kubectl Tool</a>
         </li>
         
     </ul>
@@ -2096,7 +2096,7 @@ users:
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.765b4f11b824d1e47bfbea7c9047fe796f52a7d2fd6ed0b55eef2ec78335043a.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

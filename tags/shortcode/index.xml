@@ -98,7 +98,7 @@ Here, I just take notes for the solution.</description>
         <guid>http://feynmanzhou.github.io/posts/add-mirror-and-reload-docker/</guid>
         <description>My Environment CentOS Linux release 7.6 on QingCloud Platform
 Configure the Docker daemon Either pass the &amp;ndash;registry-mirror option when starting dockerd manually, or edit /etc/docker/daemon.json and add the registry-mirrors key and value, to make the change persistent.
-{ &amp;quot;registry-mirrors&amp;quot;: [&amp;quot;https://&amp;lt;my-docker-mirror-host&amp;gt;&amp;quot;] } Save the file and reload Docker for the change to take effect.
+{ &amp;#34;registry-mirrors&amp;#34;: [&amp;#34;https://&amp;lt;my-docker-mirror-host&amp;gt;&amp;#34;] } Save the file and reload Docker for the change to take effect.
 Reload Docker Flush changes and restart Docker:
 sudo systemctl daemon-reload sudo systemctl restart docker Reference  Control Docker with systemd Registry as a pull through cache  </description>
         

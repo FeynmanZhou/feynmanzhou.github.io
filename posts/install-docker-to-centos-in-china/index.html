@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.cd44056d552c69703dced61ae60f99166a0ddf44be93d6aa5d5127d98bf98984.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1231,7 +1231,7 @@
     <meta property="twitter:description" content="How to Install Docker on CentOS 7.6 in China, with China registry mirror">
   
 
-<meta name="generator" content="Hugo 0.68.1" />
+<meta name="generator" content="Hugo 0.95.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1633,20 +1633,20 @@
 <ol>
 <li>Extend yum function</li>
 </ol>
-<pre><code>$ yum install -y yum-utils
+<pre tabindex="0"><code>$ yum install -y yum-utils
 </code></pre><ol start="2">
 <li>Add software source information</li>
 </ol>
-<pre><code>$ yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo  
+<pre tabindex="0"><code>$ yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo  
 </code></pre><ol start="3">
 <li>Automatically select the fastest yum registry source</li>
 </ol>
-<pre><code>yum makecache fast
+<pre tabindex="0"><code>yum makecache fast
 </code></pre><h2 id="list-the-current-version-of-docker-ce-that-can-be-installed">List the current version of docker-ce that can be installed</h2>
 <ol>
 <li>View the version list:</li>
 </ol>
-<pre><code>$ yum list docker-ce --showduplicates | sort -r
+<pre tabindex="0"><code>$ yum list docker-ce --showduplicates | sort -r
 docker-ce.x86_64            3:19.03.9-3.el7                    docker-ce-stable
 docker-ce.x86_64            3:19.03.8-3.el7                    docker-ce-stable
 docker-ce.x86_64            3:19.03.7-3.el7                    docker-ce-stable
@@ -1699,17 +1699,17 @@ Available Packages
 </code></pre><ol start="2">
 <li>Install the specified version</li>
 </ol>
-<pre><code># yum -y install docker-ce-[VERSION]   
+<pre tabindex="0"><code># yum -y install docker-ce-[VERSION]   
 $ yum install -y docker-ce-18.06.3.ce-3.el7
 </code></pre><h2 id="start-docker">Start Docker</h2>
 <ol>
 <li>Start Docker</li>
 </ol>
-<pre><code>$ systemctl start docker
+<pre tabindex="0"><code>$ systemctl start docker
 </code></pre><ol start="2">
 <li>Verify the docker information:</li>
 </ol>
-<pre><code>$ docker info
+<pre tabindex="0"><code>$ docker info
 Containers: 0
  Running: 0
  Paused: 0
@@ -1756,7 +1756,7 @@ Live Restore Enabled: false
 </code></pre><ol start="3">
 <li>At last, let&rsquo;s verify the docker version, it demonstrates the Docker CE has been installed successfully.</li>
 </ol>
-<pre><code>$ docker version
+<pre tabindex="0"><code>$ docker version
 Client:
  Version:           18.06.3-ce
  API version:       1.38
@@ -1865,7 +1865,7 @@ Server:
     
     
       
-        <img data-src="/images/whoami/avatar.jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" alt="Feynman Zhou" class="lazyload whoami__image"/>
+        <img data-src="/images/whoami/avatar-1.jpg" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" alt="Feynman Zhou" class="lazyload whoami__image"/>
       
     
   </div>
@@ -2007,19 +2007,19 @@ Server:
     <ul class="related-ul">
         
         <li>
-          <a href="/posts/github-invalid-authentication/" class="related__link">GitHub Invalid Authentication</a>
-        </li>
-        
-        <li>
-          <a href="/posts/add-mirror-and-reload-docker/" class="related__link">How to Add a Registry Mirror in Docker</a>
-        </li>
-        
-        <li>
           <a href="/posts/install-kubectl/" class="related__link">Install and Set Up kubectl Tool</a>
         </li>
         
         <li>
           <a href="/posts/install-kind-k8s-and-kubesphere/" class="related__link">Use Kind to provision Kubernetes, run KubeSphere anywhere</a>
+        </li>
+        
+        <li>
+          <a href="/posts/github-invalid-authentication/" class="related__link">GitHub Invalid Authentication</a>
+        </li>
+        
+        <li>
+          <a href="/posts/add-mirror-and-reload-docker/" class="related__link">How to Add a Registry Mirror in Docker</a>
         </li>
         
     </ul>
@@ -2097,7 +2097,7 @@ Server:
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.765b4f11b824d1e47bfbea7c9047fe796f52a7d2fd6ed0b55eef2ec78335043a.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
